@@ -1,8 +1,16 @@
-# Getting Started with Create React App
+# App for Arbitrage in the Crypto-Space
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+* Fetching Data from Multiple Exchanges:
+We now have two fictional exchanges (Exchange A and Exchange B) represented by their respective API endpoints. Replace these with actual API endpoints from the exchanges you want to integrate.
 
-## Available Scripts
+* Combining Data:
+The data from both exchanges is combined into a single array (cryptoData).
+
+* Calculating Price Differentials:
+The server now calculates the price differentials and identifies arbitrage opportunities. In this example, it's filtering entries where the sell price is higher than the buy price, indicating a potential profit opportunity.
+
+
+## HowTo Section:  Available Scripts
 
 In the project directory, you can run:
 
@@ -65,6 +73,6 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/a
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-### `npm run build` fails to minify
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

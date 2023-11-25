@@ -1,0 +1,70 @@
+/* src/ArbitrageTable.css */
+
+/* Body Styles */
+body {
+    background-color: rgba(43, 59, 71, 0.886); /* Blue Grey background color */
+  }
+  
+  /* Table Container Styles */
+  .table-container {
+    background-color: #264555; /* Grey Blue for the table container */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgb(96, 96, 96); /* Neon White shadow */
+    overflow: hidden;
+    margin: 20px; /* Add margin for space from the sides */
+  }
+  
+  /* Table Styles */
+  .table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  /* Table Header Styles */
+  .table-head {
+    background-color: #264555; /* Grey Blue for the table header */
+    color: #ffffff; /* Neon White text color */
+    box-shadow: 0 4px 8px rgba(56, 73, 87, 0.886); /* Neon White shadow */
+  }
+  
+  /* Table Body Styles */
+  .table-body {
+    text-align: center;
+  }
+  
+  /* Table Row Styles */
+  .table-row:nth-child(even) {
+    background-color: #264555; /* Grey Blue for even rows */
+  }
+  
+  /* Table Cell Styles */
+  .table-cell {
+    padding: 10px;
+    border-bottom: 1px solid #ffffff; /* Neon White lines between rows */
+    color: #ffffff; /* Neon White text color */
+  }
+  
+  /* Coin Icon Styles */
+  .coin-icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+  }
+  
+  /* Lyra Arbitrage Title Styles */
+  .lyra-title {
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  /* Lyra Icon Styles */
+  .lyra-icon {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+  }
+  
