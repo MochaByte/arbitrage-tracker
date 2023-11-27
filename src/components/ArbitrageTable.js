@@ -15,7 +15,7 @@ const ArbitrageTable = () => {
         const fakeData = [
           { currencyPair: 'BTC/USD', buyPrice: 48000, sellPrice: 49000 },
           { currencyPair: 'ETH/USD', buyPrice: 3000, sellPrice: 3200 },
-          // Add more fake data as needed
+          
         ];
 
         setArbitrageData(fakeData);
