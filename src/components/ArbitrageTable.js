@@ -57,7 +57,7 @@ const ArbitrageTable = () => {
                 <td className="table-cell">
                   <img
                     className="coin-icon"
-                    src={`./icons/${entry.currencyPair.split('/')[0].toLowerCase()}-icon.png`}
+                    src={`/icons/${entry.currencyPair.split('/')[0].toLowerCase()}-icon.png`}
                     alt={entry.currencyPair}
                   />
                   {entry.currencyPair}

@@ -2,16 +2,24 @@
 
 /* Body Styles */
 body {
-    background-color: rgba(43, 59, 71, 0.886); /* Blue Grey background color */
+    background-color: #485c6a; /* Blue Grey background color */
+    margin-top: 20px; /* Add margin at the top */
   }
   
   /* Table Container Styles */
   .table-container {
-    background-color: #264555; /* Grey Blue for the table container */
+    background-color:rgba(18, 23, 35, 0.8); /* Grey Blue for the table container */
     border-radius: 8px;
-    box-shadow: 0 4px 8px rgb(96, 96, 96); /* Neon White shadow */
+    border-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.2); /* Neon White shadow */
     overflow: hidden;
-    margin: 20px; /* Add margin for space from the sides */
+    margin: 20px auto; /* Center the table container */
+    max-width: 80%; /* Limit the maximum width of the table */
+    display: flex;
+    flex-direction: row; /* Change to row direction */
+    align-items: center; /* Align items to the center */
+    padding: 20px; /* Add padding for space inside the container */
+    justify-content: space-between; /* Add space between items */
   }
   
   /* Table Styles */
@@ -22,9 +30,8 @@ body {
   
   /* Table Header Styles */
   .table-head {
-    background-color: #264555; /* Grey Blue for the table header */
     color: #ffffff; /* Neon White text color */
-    box-shadow: 0 4px 8px rgba(56, 73, 87, 0.886); /* Neon White shadow */
+    
   }
   
   /* Table Body Styles */
@@ -33,14 +40,12 @@ body {
   }
   
   /* Table Row Styles */
-  .table-row:nth-child(even) {
-    background-color: #264555; /* Grey Blue for even rows */
-  }
+
   
   /* Table Cell Styles */
   .table-cell {
     padding: 10px;
-    border-bottom: 1px solid #ffffff; /* Neon White lines between rows */
+    border-bottom: 1px solid #ffffff97; /* Neon White lines between rows */
     color: #ffffff; /* Neon White text color */
   }
   
@@ -58,13 +63,6 @@ body {
     font-weight: bold;
     display: flex;
     align-items: center;
-    margin-bottom: 20px;
-  }
-  
-  /* Lyra Icon Styles */
-  .lyra-icon {
-    width: 30px;
-    height: 30px;
-    margin-right: 10px;
+    margin-left: 10px; /* Add margin to the left to align with the box content */
   }
   
